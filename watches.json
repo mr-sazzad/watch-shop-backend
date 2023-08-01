@@ -1,0 +1,218 @@
+[
+    {
+      "name": "Haylou Solar LS05",
+      "image": "https://ae01.alicdn.com/kf/H60e3462b63f244dfb972983e277afbadc.jpg",
+      "price": 2650.00,
+      "status": "In stock",
+      "rating": 4.5,
+      "description": "The Haylou Solar LS05 is a stylish and affordable smartwatch with a long battery life. It features a 1.28-inch AMOLED display, heart rate monitoring, GPS tracking, and water resistance up to 5ATM.",
+      "comments": [
+        {
+          "user": "John Doe",
+          "comment": "I love this watch! It's so stylish and has all the features I need. The battery life is amazing, too. I can go days without having to charge it."
+        },
+        {
+          "user": "Jane Doe",
+          "comment": "This watch is great for tracking my workouts. The heart rate monitoring is accurate and the GPS tracking is very reliable."
+        }
+      ]
+    },
+    {
+      "name": "Haylou RS4 Plus",
+      "image": "innovink.lk/wp-content/uploads/2022/10/haylou-rs4-plus-8.jpg",
+      "price": 5799.00 ,
+      "status": "In stock",
+      "rating": 4.7,
+      "description": "The Haylou RS4 Plus is a premium smartwatch with a sleek design and a wealth of features. It features a 1.78-inch AMOLED display, heart rate monitoring, GPS tracking, NFC payments, and water resistance up to 5ATM.",
+      "comments": [
+        {
+          "user": "John Doe",
+          "comment": "This watch is amazing! It has everything I could ever want in a smartwatch. The display is beautiful, the features are great, and the battery life is incredible."
+        },
+        {
+          "user": "Jane Doe",
+          "comment": "I love the NFC payments feature on this watch. It's so convenient to be able to pay for things with my watch instead of my phone."
+        }
+      ]
+    },
+    {
+      "name": "Haylou LS02",
+      "image": "https://www.technolife.ir/image/haylou-ls02-xiaomiplanet-novy-cover_8b866770-f621-4cfc-92e7-7af2dcbd41db.jpg",
+      "price": 1900.00,
+      "status": "Out Of Stock",
+      "rating": 4.3,
+      "description": "The Haylou LS02 is a great budget-friendly smartwatch. It features a 1.2-inch LCD display, heart rate monitoring, sleep tracking, and water resistance up to 5ATM.",
+      "comments": [
+        {
+          "user": "John Doe",
+          "comment": "This watch is great for the price. It does everything I need it to do and it's very comfortable to wear."
+        },
+        {
+          "user": "Jane Doe",
+          "comment": "I love the sleep tracking feature on this watch. It's really helpful to see how much sleep I'm getting and how well I'm sleeping."
+        }
+      ]
+    },
+    {
+        "name": "Haylou RT LS05S",
+        "image": "https://www.gizmochina.com/wp-content/uploads/2021/03/Sample-1.png",
+        "price": 3600.00,
+        "status": "Out Of Stock",
+        "rating": 4.4,
+        "description": "The Haylou RT LS05S is a stylish and affordable smartwatch with a long battery life. It features a 1.28-inch AMOLED display, heart rate monitoring, GPS tracking, and water resistance up to 5ATM. It also has a built-in speaker and microphone, so you can make and receive calls directly from your watch.",
+        "comments": [
+          {
+            "user": "John Doe",
+            "comment": "This watch is great for the price. It has all the features I need and it's very comfortable to wear."
+          },
+          {
+            "user": "Jane Doe",
+            "comment": "I love the built-in speaker and microphone on this watch. It's so convenient to be able to make and receive calls directly from my watch."
+          }
+        ]
+    },
+    {
+        "name": "Haylou Solar LS02S",
+        "image": "https://www.remaxbangladesh.com/image/cache/catalog/A%202020%20Folder/Smart%20Watch/2020/LS02/Haylou-Solar-Smart-Watch-Price-in-bd-950x930.jpg",
+        "price": 3590.00,
+        "status": "In stock",
+        "rating": 4.4,
+        "description": "The Haylou Solar LS02S is a stylish and affordable smartwatch with a long battery life. It features a 1.28-inch AMOLED display, heart rate monitoring, sleep tracking, and water resistance up to 5ATM. It also has a built-in GPS tracker, so you can track your workouts without your phone.",
+        "comments": [
+          {
+            "user": "John Doe",
+            "comment": "This watch is great for the price. It has all the features I need and it's very comfortable to wear."
+          },
+          {
+            "user": "Jane Doe",
+            "comment": "I love the built-in GPS tracker on this watch. It's so convenient to be able to track my workouts without my phone."
+          }
+        ]
+      }, {
+        "name": "Haylou RT3",
+        "image": "https://gadgetnmusic.com/wp-content/uploads/2023/01/ezgif-5-db6b570894.jpg",
+        "price": 4200.00,
+        "status": "In stock",
+        "rating": 4.6,
+        "description": "The Haylou RT3 is a stylish and affordable smartwatch with a long battery life. It features a 1.78-inch AMOLED display, heart rate monitoring, GPS tracking, NFC payments, and water resistance up to 5ATM. It also has a built-in speaker and microphone, so you can make and receive calls directly from your watch.",
+        "comments": [
+          {
+            "user": "John Doe",
+            "comment": "This watch is amazing! It has everything I could ever want in a smartwatch. The display is beautiful, the features are great, and the battery life is incredible."
+          },
+          {
+            "user": "Jane Doe",
+            "comment": "I love the NFC payments feature on this watch. It's so convenient to be able to pay for things with my watch instead of my phone."
+          }
+        ]
+      },
+      {
+        "name": "Haylou LS06",
+        "image": "https://techxreviews.com/wp-content/uploads/2022/08/Haylou-GS-Review-New-Round-Dial-Smartwatch-Under-30-6.jpg",
+        "price": 2400.00,
+        "status": "In stock",
+        "rating": 4.2,
+        "description": "The Haylou LS06 is a great budget-friendly smartwatch. It features a 1.2-inch LCD display, heart rate monitoring, sleep tracking, and water resistance up to 5ATM. It also has a built-in music player, so you can control your music playback from your watch.",
+        "comments": [
+          {
+            "user": "John Doe",
+            "comment": "This watch is great for the price. It does everything I need it to do and it's very comfortable to wear."
+          },
+          {
+            "user": "Jane Doe",
+            "comment": "I love the built-in music player on this watch. It's so convenient to be able to control my music playback from my watch."
+          }
+        ]
+      },
+      {
+        "name": "Haylou LS09A",
+        "image": "https://gadgetnmusic.com/wp-content/uploads/2022/05/c45ae927ebf6.jpg",
+        "price": 2540.00,
+        "status": "In stock",
+        "rating": 4.3,
+        "description": "The Haylou LS09A is a great budget-friendly smartwatch. It features a 1.4-inch TFT display, heart rate monitoring, sleep tracking, and water resistance up to 5ATM. It also has a built-in music player, so you can control your music playback from your watch.",
+        "comments": [
+          {
+            "user": "John Doe",
+            "comment": "This watch is great for the price. It does everything I need it to do and it's very comfortable to wear."
+          },
+          {
+            "user": "Jane Doe",
+            "comment": "I love the built-in music player on this watch. It's so convenient to be able to control my music playback from my watch."
+          }
+        ]
+      },
+      {
+        "name": "Haylou Solar Lite",
+        "image": "https://ae01.alicdn.com/kf/S4a4b3fc44369497f827aeeb13f96f2a9B.jpg",
+        "price": 1990.00,
+        "status": "In stock",
+        "rating": 4.2,
+        "description": "The Haylou Solar Lite is a great budget-friendly smartwatch. It features a 1.2-inch LCD display, heart rate monitoring, sleep tracking, and water resistance up to 5ATM. It also has a built-in pedometer, so you can track your steps and distance traveled.",
+        "comments": [
+          {
+            "user": "John Doe",
+            "comment": "This watch is great for the price. It does everything I need it to do and it's very comfortable to wear."
+          },
+          {
+            "user": "Jane Doe",
+            "comment": "I love the built-in pedometer on this watch. It's so convenient to be able to track my steps and distance traveled."
+          }
+        ]
+      },
+      {
+        "name": "Haylou RS3",
+        "image": "https://cdn.webshopapp.com/shops/242991/files/376014857/image.jpg",
+        "price": 3690.00,
+        "status": "In stock",
+        "rating": 4.5,
+        "description": "The Haylou RS3 is a stylish and affordable smartwatch with a long battery life. It features a 1.28-inch AMOLED display, heart rate monitoring, GPS tracking, NFC payments, and water resistance up to 5ATM. It also has a built-in speaker and microphone, so you can make and receive calls directly from your watch.",
+        "comments": [
+          {
+            "user": "John Doe",
+            "comment": "This watch is great for the price. It has all the features I need and it's very comfortable to wear."
+          },
+          {
+            "user": "Jane Doe",
+            "comment": "I love the NFC payments feature on this watch. It's so convenient to be able to pay for things with my watch instead of my phone."
+          }
+        ]
+      },
+      {
+        "name": "Haylou Solar LS02 Pro",
+        "image": "https://haylou.com/cdn/shop/files/haylou-smartwatch-2-pro_9.jpg",
+        "price": 3000.00,
+        "status": "In stock",
+        "rating": 4.4,
+        "description": "The Haylou Solar LS02 Pro is a stylish and affordable smartwatch with a long battery life. It features a 1.28-inch AMOLED display, heart rate monitoring, sleep tracking, and water resistance up to 5ATM. It also has a built-in GPS tracker, so you can track your workouts without your phone.",
+        "comments": [
+          {
+            "user": "John Doe",
+            "comment": "This watch is great for the price. It has all the features I need and it's very comfortable to wear."
+          },
+          {
+            "user": "Jane Doe",
+            "comment": "I love the built-in GPS tracker on this watch. It's so convenient to be able to track my workouts without my phone."
+          }
+        ]
+      },
+      {
+        "name": "Haylou RT LS06S",
+        "image": "https://techpalli.com/wp-content/uploads/2022/01/Haylou-Rt-2-Smartwatch-techpalli.png",
+        "price": 4000.00,
+        "status": "Out Of Stock",
+        "rating": 4.5,
+        "description": "The Haylou RT LS06S is a stylish and affordable smartwatch with a long battery life. It features a 1.28-inch AMOLED display, heart rate monitoring, GPS tracking, NFC payments, and water resistance up to 5ATM. It also has a built-in speaker and microphone, so you can make and receive calls directly from your watch.",
+        "comments": [
+          {
+            "user": "John Doe",
+            "comment": "This watch is amazing! It has everything I could ever want in a smartwatch. The display is beautiful, the features are great, and the battery life is incredible."
+          },
+          {
+            "user": "Jane Doe",
+            "comment": "I love the NFC payments feature on this watch. It's so convenient to be able to pay for things with my watch instead of my phone."
+          }
+        ]
+      }
+  ]
+  
