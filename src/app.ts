@@ -1,6 +1,7 @@
 import cors from "cors";
 import express, { NextFunction, Request, Response, urlencoded } from "express";
 import ApplicationRoutes from "./router/index";
+import cookieParser from 'cookie-parser'
 
 const app = express();
 
@@ -8,6 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use(urlencoded({ extended: true }));
+app.use(cookieParser())
 
 app.get("/", (_req: Request, res: Response) => {
   res.status(201).json({
