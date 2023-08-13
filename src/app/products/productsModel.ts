@@ -22,16 +22,18 @@ const watchSchema = new Schema<IWatch>({
     type: String,
     required: true,
   },
-  comments: {
-    name: {
-      type: String,
-      required: true,
+  comments: [
+    {
+      name: {
+        type: String,
+        required: true,
+      },
+      comment: {
+        type: String,
+        required: true,
+      },
     },
-    comment: {
-      type: String,
-      required: true,
-    },
-  },
+  ],
 });
 
 export const watchModel = model("Watch", watchSchema);
