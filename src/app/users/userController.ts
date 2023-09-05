@@ -28,3 +28,18 @@ export const loginUser: RequestHandler = async (req, res) => {
     accessToken: accessToken,
   });
 };
+
+export const getCurrentUser: RequestHandler = async (req, res, next) => {
+  try {
+    const token = req.headers.authorization;
+    const result = await userServices.getCurrentUser(token as string);
+
+    res.status(200).json({
+      statusCode: 200,
+      message: "Login successfully!",
+      accessToken: result,
+    });
+  } catch (err: any) {
+    next(err);
+  }
+};
