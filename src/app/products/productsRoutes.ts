@@ -1,4 +1,6 @@
 import { Router } from "express";
+import validateRequest from "../middleware/validateRequest";
+import { validateProduct } from "./productValidation";
 import {
   getAllWatches,
   getRecentWatches,
@@ -18,6 +20,6 @@ router.get("/recent", getRecentWatches);
 router.get("/:id", getSingleWatch);
 
 // Route to create a new watch
-router.post("/new", postSingleWatch);
+router.post("/new", validateRequest(validateProduct), postSingleWatch);
 
 export default router;

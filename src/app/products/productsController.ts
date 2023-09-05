@@ -12,7 +12,6 @@ export const getSingleWatch: RequestHandler = async (req, res, next) => {
       data: result,
     });
   } catch (err: any) {
-    console.log("SINGLE WATCH FETCHING 🦀🦀", err);
     next(err);
   }
 };

@@ -1,6 +1,6 @@
 export interface IWatch {
   name: string;
-  image: string;
+  image?: string;
   price: number;
   status: string;
   rating: number;
