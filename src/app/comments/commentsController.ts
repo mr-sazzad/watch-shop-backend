@@ -14,15 +14,19 @@ export const postComment: RequestHandler = async (req, res) => {
   });
 };
 
-export const getAllComments: RequestHandler = async (req, res) => {
-  const id = req.params.id as string;
-  console.log("id", id);
+export const getAllComments: RequestHandler = async (req, res, next) => {
+  try {
+    const id = req.params.id as string;
+    console.log("id", id);
 
-  const result = await commentService.getAllComments(id);
+    const result = await commentService.getAllComments(id);
 
-  res.status(201).json({
-    success: true,
-    message: "all comments retrieved successfully !",
-    data: result,
-  });
+    res.status(201).json({
+      success: true,
+      message: "all comments retrieved successfully !",
+      data: result,
+    });
+  } catch (err: any) {
+    next(err);
+  }
 };

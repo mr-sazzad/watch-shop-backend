@@ -1,15 +1,20 @@
 import { RequestHandler } from "express";
 import { watchServices } from "./productsServices";
 
-export const getSingleWatch: RequestHandler = async (req, res) => {
-  const { id } = req.params;
-  const result = await watchServices.getSingleWatch(id as string);
+export const getSingleWatch: RequestHandler = async (req, res, next) => {
+  try {
+    const id = req.params.id;
+    const result = await watchServices.getSingleWatch(id as string);
 
-  res.status(201).json({
-    statusCode: 201,
-    message: "watch retrieved successfully 🎯",
-    data: result,
-  });
+    res.status(201).json({
+      statusCode: 201,
+      message: "watch retrieved successfully 🎯",
+      data: result,
+    });
+  } catch (err: any) {
+    console.log("SINGLE WATCH FETCHING 🦀🦀", err);
+    next(err);
+  }
 };
 
 export const getAllWatches: RequestHandler = async (_req, res) => {

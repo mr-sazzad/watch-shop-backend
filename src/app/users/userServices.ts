@@ -27,13 +27,13 @@ const loginUser = async (user: IUser) => {
   const accessToken = jwt.sign(
     { id: validUser._id, email: validUser.email },
     config.secret_key as string,
-    { expiresIn: "1h" }
+    { expiresIn: "365d" }
   );
 
   const refreshToken = jwt.sign(
     { id: validUser._id, email: validUser.email },
     config.secret_key as string,
-    { expiresIn: "30d" }
+    { expiresIn: "365d" }
   );
 
   return {
