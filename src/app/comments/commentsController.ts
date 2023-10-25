@@ -17,7 +17,6 @@ export const postComment: RequestHandler = async (req, res) => {
 export const getAllComments: RequestHandler = async (req, res, next) => {
   try {
     const id = req.params.id as string;
-    console.log("id", id);
 
     const result = await commentService.getAllComments(id);
 

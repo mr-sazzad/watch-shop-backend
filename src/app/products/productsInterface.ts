@@ -6,4 +6,5 @@ export interface IWatch {
   rating: number;
   description: string;
   comments: { name: string; comment: string }[];
+  _id: string;
 }
